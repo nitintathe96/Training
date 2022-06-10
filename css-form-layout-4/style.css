@@ -1,0 +1,81 @@
+git *{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    display: flex;
+}
+.form{
+    width:100%;
+    background-color: azure;
+}
+.powered-by-image{
+    margin: 220px;
+}
+.powered-by-image h3{
+    text-align: center;
+}
+.powered-logo{
+    position:relative;
+}
+.powered-by-image img{
+     margin-left:60px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-header{
+    
+    margin-top:150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#head{
+    font-size:250%;
+    font-weight: bolder;
+    color: rgb(4, 4, 59);
+}
+.form-header p{
+    font-size: 120%;
+}
+.icon-placeholder{
+     font-family: FontAwesome;
+}
+.form-main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.form-lable{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;  
+}
+.form-lable input{
+    padding:15px;
+    font-size:120%;
+    border-radius:10px;
+}
+.form-lable label{
+    margin: 5px;
+    font-size:120%;
+}
+.asterisk{
+    color:red;
+}
+.btn {
+    display:block;
+    background-color:green ;
+    padding: 15px;
+    margin-top:20px; 
+    font-weight: bold; 
+    border-radius:10px;
+}
+.form-footer{
+    text-align: center;
+    margin-top:20px;
+    font-size: 120%;
+}
