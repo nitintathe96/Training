@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    border: solid 2px black;
+    background-color:rgb(2, 2, 70);
+    display: flex;
+    text-decoration: none;
+    overflow: hidden;
+}
+.ul{
+    flex: fit-content;
+}
+.ul li{
+    float: left;
+    list-style-type: none;
+    margin: 15px 19px;
+    align-items: center ;
+    font-size:120%;
+}
+.ul a{
+    text-decoration: none;
+    color: white;
+}
+#dropdown{
+    text-decoration: none;
+    padding: 13px;
+    color:white;
+    background-color:rgb(2, 2, 70);    
+}
+.icon-right{
+    display: block ruby;
+    float: right;
+}
+#link-client{
+    margin-top: 10px;
+    margin-left:70px;
+    font-size:100%;
+}
+#link-client a{
+    color:rgb(5, 102, 141);
+}
+#dropdown1{
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 90%;
+    margin-top: -22px;   
+}
+#dropdown2{
+    padding: 10px;
+    width: 80%;
+    font-size:80%;
+    border-radius: 10px;
+}
+#dropdown3{
+    padding: 10px;
+    font-size:80%;
+    border-radius: 10px;
+    margin-top: -10px;
+    margin-bottom: 9px;
+}
+select{
+    border: none;
+    font-size:120%;
+}
+.icon-placeholder{
+    font-family: FontAwesome;
+}
+
+h4{
+    border-radius:8px;
+    margin-top: 17px;
+    margin-right: 25px;
+    color: white;
+}
+#add-client{
+    font-size:180%;
+    color: rgb(4, 4, 44);
+    margin-left: 70px;
+}
+progress{
+    width: 100%;
+}
+.contact{
+    display: flex;
+}
+.side-bar{
+    background-color:white;
+    float:left;
+    width:500px;
+}
+.side-bar li{
+    list-style: none;
+    text-decoration: none;
+    padding:8px;
+}
+.side-bar ul{
+    margin-left: 30px;
+}
+.fa{
+    margin-right:10px;
+}
+.line{
+    margin-left:11px;
+}
+.right{
+    width:100%;
+}
+.rg-form{
+    padding: 40px;
+}
+input[type="radio"]{
+      width:20px;
+      height:20px;
+      vertical-align: middle;
+      border-radius: 50%;
+      padding: 2px;
+      margin:5px 5px;
+      
+}
+.cl-name{
+    display: flex;
+    flex-direction: row;
+}
+.client-name{
+    display: flex;
+    flex-direction: row;
+}
+.cl-name-input{
+    display:inline-grid;
+}
+.cl-name-l{
+    display: inline-grid;
+    flex: fit-content;
+    padding:10px;
+}
+.cl-name-l2{
+    display:inline-grid;
+    flex: fit-content;
+    padding:10px;
+
+}
+.cl-name-l2-1{
+    display:inline-grid;
+    flex: fit-content;
+    padding: 10px;
+    
+}
+.icon{
+    font-family:FontAwesome;
+}
+.magane-btn{
+    display:ruby;
+}
+.button{
+    background-color:rgb(33, 8, 78);
+    border: none;
+    border-radius: 5px;
+    color:white;
+    padding:10px 55px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer
+}
+input[type="text"]{
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: rgb(216, 214, 211);
+    border-radius: 10px;
+}
+.ast{
+    color: red;
+}
+.color-set {
+    /* margin: 2px;
+    padding: 10px; */
+    padding: 10px;    
+}
+.color-set-cl{
+    border: none;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+.next-btn{
+    float: right;
+    padding:10px;
+    font-family:FontAwesome;
+}
+ p{
+    /* padding: 5px; */
+    color: rgb(8, 8, 102);
+    margin-bottom: 5px;
+}
+form label{
+    /* padding:10px; */
+    margin-bottom: 10px;
+}
+#label-attention{
+    margin-bottom: 10px;
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

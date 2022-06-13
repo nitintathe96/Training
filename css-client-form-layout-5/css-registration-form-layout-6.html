@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resistration form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body>
+        <header class="header">
+                <img src="/assets/logo.png" alt="nature image" width="50px" height="50px">
+                <ul class="ul">
+                    <li><a href="#" class="link">Accounts</a></li>
+                    <li><a href="#" class="link">Clients</a></a></li>
+                    <li><a href="#" class="link">Documents</a></li>
+                    <li><a href="#" class="link">Reports</a></li>
+                    <select name="" id="dropdown">
+                        <option value="">Accounting</option>
+                    </select>
+                    <select name="" id="dropdown">
+                        <option value="">Accounting</option>
+                    </select>
+                </ul>
+                <div class="icon-right">
+                    <i class="fa fa-plus-circle" style="font-size:24px; color: white;"></i>
+                    <i  class="fa fa-question-circle-o" style="font-size:24px; color: white;"></i>
+                    <h4>RK</h4>
+                </div>              
+        </header>
+        <div class="main-body">
+            <div class="client">
+                <p id="link-client"><a href="">clients</a>/Add New Client</p>
+                <p id="add-client"><strong>Add New Client-vbng </strong></p>
+            </div>
+            <progress max="100" value="15"></progress>
+            <div class="contact">
+                <div class="side-bar">
+                    <ul>
+                        <li>Contact</li>
+                        <li><span class="fa fa-circle" style="color:rgb(104, 226, 248);"></span>Client Information</li>
+                        <i class="line">|</i>
+                        <li><span class="fa fa-circle-thin"></span>Main Point of Content</li>
+                        <i class="line">|</i>
+                        <li>Setting</li>
+                        <li><span class="fa fa-circle-thin"></span>Accounting Configuration</li>
+                        <i class="line">|</i>
+                        <li><span class="fa fa-circle-thin"></span>Bank Accounts</li>
+                        <i class="line">|</i>
+                        <li><span class="fa fa-circle-thin"></span>Costs & Fees</li>
+                        <i class="line">|</i>
+                        <li><span class="fa fa-circle-thin"></span>Invoices</li>  
+                        <i class="line">|</i>
+                        <li><span class="fa fa-circle-thin"></span>PIF Options</li>
+                        <i class="line">|</i>
+                        <li><span class="fa fa-circle-thin"></span>Filling & Judgment Automation</li>  
+                    </ul>
+                </div>
+                    <div class="right">
+                        <div class="rg-form">
+                        <form action="">
+                            <h2>Client Information</h2>
+                            <p>Indicate if the client is a business or Individual</p>
+                            <input type="radio" name="user">
+                            <label> <span></span>Business</label>
+                            <input  type="radio" name="user">
+                            <label ><span></span>Individual</label>
+                            <hr>
+                            <p>Enter the client's name.</p>
+                            <div class="cl-name">
+                                <div class="cl-name-l">
+                                    <label for="client-name">Client Name<span class="ast">*</span></label>
+                                    <input type="text" placeholder="client Name">
+                                </div>
+                                <div class="cl-name-l2">
+                                    <label for="client-name">Doing Business As</label>
+                                    <input type="text"  placeholder="Enter DBA or ficititious name" >
+                                </div>
+                            </div>
+                            <hr>
+                            <p>Create a client ID , enter their FEIN, and select client type</p>
+                            <div class="cl-name">
+                                <div class="cl-name-l">
+                                    <label for="client-name">Client ID (Limit of 10 Characters)<span class="ast">*</span></label>
+                                    <input type="text" placeholder="Enter the Client ID">
+                                </div>
+                                <div class="cl-name-l2">
+                                    <label for="client-name">FEIN</label>
+                                    <input type="text"  class="icon"  placeholder="Enter FEIN " >
+                                </div>
+                                <div class="cl-name-l2-1">
+                                    <label for="client-name">Client Type<span class="ast">*</span></label>
+                                    <select name="" id="dropdown3">
+                                        <option value="Accounting">Select Type</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <hr> 
+                            <p>Assign to 10 or more sets. Uses sets to group like client together and pull reports for all clients in that set.(optional)</p>
+                            <div>
+                                <label for="client-name">Client Set Code</label>
+                                <div class="magane-btn">
+                                    <select name="" id="dropdown2">
+                                        <option value="Accounting">Select Client Set Code</option>
+                                    </select>
+                                    <button class="button"><i class="fa fa-gear"></i>Manage Codes</button>
+                                </div>
+                            </div>
+                            <hr>
+                            <div >
+                                <p>Enter address (optional).More addresses can be saved as additional contacts.</p>
+                                <label id="label-attention">Attention</label>
+                                <input type="text" style="width:100%;" placeholder="Enter  addresses" >
+                                <label>Street Address</label>
+                                <input type="text" style=" width: 100%;" placeholder="Enter street address.">
+                                <label>Street Address</label>
+                                <input type="text" style="width: 100%;" placeholder="Enter appartment, suite, unit, floor, building, etc.">
+                            </div>
+                            <div class="cl-name">
+                                <div class="cl-name-l">
+                                    <label>Zip Code/Postal Code</label>
+                                    <input type="text" placeholder="00000">
+                                </div>
+                                <div class="cl-name-l2">
+                                    <label>City</label>
+                                    <input type="text" placeholder="Enter city" >
+                                </div>
+                            </div>
+                            <div class="cl-name">
+                                <div class="cl-name-l">
+                                    <label>State/Province</label>
+                                    <input type="text" placeholder="Enter state/province">
+                                </div>
+                              
+                                <div class="cl-name-l2-1">
+                                    <label for="client-name">Client Type</label>
+                                    <select name="" id="dropdown3">
+                                        <option value="Accounting">Select Type</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div>
+                                <label for="client-name">Country</label>
+                                <div class="magane-btn">
+                                    <select name="" id="dropdown2">
+                                        <option value="Accounting">Select Country Code</option>
+                                    </select>
+                                    <button class="button"><i class="fa fa-gear"></i>Manage Codes</button>
+                                </div>
+                            </div>
+                            <div>
+                                <label for="client-name" style="display:flex;">Select Time Zone</label>
+                                <select name="" id="dropdown2" style="width: 100%; text-align: center;">
+                                    <option value="Accounting">Select time zone</option> 
+                                </select>
+                            </div>
+                            <hr>
+                            <div>
+                                <p>Enter a website link (optional)</p>
+                                <label for="client-name">Website Link</label>
+                                <input type="text" style=" display: flex; width: 100%;" placeholder="Enter URL" >
+                            </div>
+                            <hr>
+                            <div>
+                                <p>Choose a pre-set color (optional)</p>
+                                <label for="client-name">Pre-sets colors</label>
+                                <div class="color-set" >
+                                    <input type="color" class="color-set-cl" value="#0a75f7">
+                                    <input type="color"class="color-set-cl" value="#32a89c">
+                                    <input type="color" class="color-set-cl" value="#06911f">
+                                    <input type="color" class="color-set-cl" value="#ed9f40">
+                                    <input type="color" class="color-set-cl" value="#ab0a0a">
+                                    <input type="color" class="color-set-cl" value="#de6f6f">
+                                    <input type="color" class="color-set-cl" value="#150252">
+                                    <input type="color" class="color-set-cl" value="#985ed1">
+                                    <input type="color" class="color-set-cl" value="#07000d">
+                                    <input type="color" class="color-set-cl" value="#4b474f">
+                                </div>
+                            </div>
+                            <hr>
+                            <div>
+                                <p>Enter notes (optional)</p>
+                                <label for="client-name">Notes</label>
+                                <input type="text" id="cl--" style=" width: 100%;" placeholder="Enter any comments or notes" >
+                             </div>
+                            <hr>
+                            <div>
+                                <p>Enter additional information by creating your own fields for client accounts (optional)</p>
+                                <label for="client-name">Custom User Field</label>
+                                <input type="text" style="display: flex; width: 100%;">
+                            </div>
+                            <br><br><br>
+                            <hr>
+                            <div class="next-btn">
+                                <a href="#">clear page</a>
+                                <button class="button">Next &nbsp;&nbsp;<span><i class="fa fa-arrow-right"></i></span></button>
+                            </div>
+                        </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </body>         
+</html>
