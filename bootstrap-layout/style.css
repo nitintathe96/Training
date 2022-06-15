@@ -1,0 +1,9 @@
+.has-bg-img{
+    position: relative;
+}
+.text{
+    position: absolute;
+    margin-top: 200px;
+    left: 0;
+    text-align: center;
+}
